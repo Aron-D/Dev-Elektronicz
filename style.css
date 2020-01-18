@@ -123,6 +123,11 @@ body {
   margin-bottom: 10px;
 }
 
+.site-content p.klachten {
+  width: auto;
+  height: 200px;
+}
+
 .content-title {
   position: relative;
   left: -50px;
@@ -153,6 +158,15 @@ body {
   font-size: 16px;
   text-align: left;
   line-height: 20px;
+}
+
+.site-content ul {
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+
+.site-content ul li {
+  font-size: 16px;
 }
 
 .testimonials {
