@@ -11,6 +11,7 @@ body {
   background-attachment: scroll;
   margin-top: 40px;
   margin-bottom: 40px;
+  font-family: sans-serif, Arial;
 }
 .container {
   width: 960px;
@@ -31,33 +32,48 @@ body {
 }
 
 .header-left {
-  width: 35%;
-  height: 200px;
-  float: left;
-}
-
-.header-center {
   width: 30%;
   height: 200px;
   float: left;
 }
 
-.header-right {
-  width: 35%;
+.header-center {
+  width: 40%;
   height: 200px;
   float: left;
 }
 
+.header-right {
+  width: 30%;
+  height: 200px;
+  float: left;
+}
+
+.header-icons {
+  height: 200px;
+  border: solid 1px black;
+  width: 100%;
+}
+
+.header-search {
+  border: solid 1px red;
+  /* w.i.p */
+}
+
+.header-logo {
+  margin-top: 10px;
+}
+
 /* Navigation */
 
-.nav {
+.navigation {
   background-color: #95cb52;
   width: 100%;
   height: 40px;
   margin-bottom: 50px;
 }
 
-ul {
+.navigation ul {
   padding: 10px;
   list-style: none;
   position: relative;
@@ -65,24 +81,24 @@ ul {
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 15px;
 }
 
-li {
+.navigation ul li {
   display: inline;
 }
 
-a {
+.navigation ul li a {
   padding: 5px;
   text-decoration: none;
   color: white;
 }
 
-a:hover {
+.navigation ul li a:hover {
   color: #222;
 }
 
-.active {
+.navigation ul li a.active {
   color: #222;
 }
 
@@ -95,7 +111,7 @@ a:hover {
   padding-bottom: 50px;
 }
 
-.images {
+.slider {
   margin-bottom: 35px;
   margin-top: -45px;
   width: 100%;
@@ -103,7 +119,11 @@ a:hover {
   background-color: black;
 }
 
-.balk {
+.site-content {
+  margin-bottom: 10px;
+}
+
+.content-title {
   position: relative;
   left: -50px;
   padding-left: 50px;
@@ -113,7 +133,7 @@ a:hover {
   background-color: #95cb52;
 }
 
-h1 {
+.content-title h1 {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 30px;
@@ -123,14 +143,13 @@ h1 {
   text-align: left;
 }
 
-p {
-  font-size: 22px;
+.site-content p {
+  font-size: 18px;
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
-span,
-.none {
+.site-content span .none {
   font-size: 16px;
   text-align: left;
   line-height: 20px;
@@ -142,31 +161,31 @@ span,
   border: solid 1px black;
 }
 
+/* Footer */
+
 .footer-distributed {
   width: 100%;
-  height: 300px;
+  height: 360px;
   background-color: #95cb52;
+  color: #fff;
 }
 
 .footer-left {
-  width: 35%;
-  height: 240px;
+  width: 30%;
+  height: 300px;
   float: left;
-  background-color: brown;
 }
 
 .footer-center {
-  width: 30%;
-  height: 240px;
+  width: 40%;
+  height: 300px;
   float: left;
-  background-color: yellow;
 }
 
 .footer-right {
-  width: 35%;
-  height: 240px;
+  width: 30%;
+  height: 300px;
   float: left;
-  background-color: green;
 }
 
 .footer-copyright {
@@ -181,5 +200,71 @@ span,
   width: 90%;
   margin: 0 auto;
   padding-top: 20px;
+  font-size: 16px;
+}
+
+.footer-distributed-position {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.footer-left h1 {
+  font-weight: normal;
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer-center h1 {
+  font-weight: normal;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.footer-center ul {
+  font-size: 16px;
+  margin-left: 50px;
+  line-height: 20px;
+  list-style: none;
+  color: #fff;
+}
+
+.footer-center ul li {
+  display: block;
+}
+
+.footer-center ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-center ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-right h1 {
+  font-weight: normal;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-right p {
+  font-size: 16px;
+}
+
+.footer-right span p {
+  line-height: 20px;
+}
+
+.footer-right p span {
+  text-align: left;
+  font-size: 16px;
+}
+
+.footer-right p span span {
+  margin-left: 60px;
   font-size: 16px;
 }
