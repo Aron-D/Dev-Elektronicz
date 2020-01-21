@@ -55,6 +55,17 @@ body {
   width: 100%;
 }
 
+.header-icons i.fa-facebook-square {
+}
+.header-icons i.fa-twitter-square {
+}
+.header-icons i.fa-youtube-square {
+}
+.header-icons i.fa-linkedin-square {
+}
+.header-icons i.fa-phone-square {
+}
+
 .header-search {
   border: solid 1px red;
   /* w.i.p */
@@ -201,7 +212,19 @@ body {
 .testimonials {
   width: 100%;
   height: 500px;
+}
+
+.col {
+  width: 30%;
+  height: 200px;
   border: solid 1px black;
+  float: left;
+}
+
+.bg-col {
+}
+
+.picture {
 }
 
 /* Footer */
