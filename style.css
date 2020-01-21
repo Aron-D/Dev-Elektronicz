@@ -120,6 +120,7 @@ body {
   height: auto;
   margin: 0 auto;
   padding-bottom: 50px;
+  border: solid 1px red;
 }
 
 .slider {
@@ -215,8 +216,8 @@ body {
 }
 
 .col {
-  width: 30%;
-  height: 200px;
+  width: 286px;
+  height: 300px;
   border: solid 1px black;
   float: left;
 }
@@ -225,6 +226,14 @@ body {
 }
 
 .picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: solid 1px red;
+}
+
+.col-text {
 }
 
 /* Footer */
