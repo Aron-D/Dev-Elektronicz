@@ -240,7 +240,7 @@ body {
   border: solid 5px white;
 }
 
-.col-text {
+.col-name {
   top: 50px;
   position: relative;
   text-align: center;
@@ -249,10 +249,17 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.col-text {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 0;
+  font-family: sans-serif;
+}
+
 .col-line {
   width: 80%;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 /* Footer */
