@@ -29,45 +29,24 @@ body {
   height: 170px;
   border-radius: 10px 10px 0px 0px;
   background-color: #fff;
-  position: relative;
 }
 
 .header-left {
-  width: 30%;
+  width: 35%;
   height: 170px;
   float: left;
 }
 
 .header-center {
-  width: 40%;
-  height: 170px;
-  float: left;
-}
-
-.header-right {
   width: 30%;
   height: 170px;
   float: left;
 }
 
-.header-icons {
+.header-right {
+  width: 35%;
   height: 170px;
-  width: 100%;
-}
-
-/* .header-icons i.fa-facebook-square {
-}
-.header-icons i.fa-twitter-square {
-}
-.header-icons i.fa-youtube-square {
-}
-.header-icons i.fa-linkedin-square {
-}
-.header-icons i.fa-phone-square {
-} */
-
-.header-search {
-  width: 100%;
+  float: left;
 }
 
 .header-logo {
