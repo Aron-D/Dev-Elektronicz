@@ -51,7 +51,11 @@ body {
 
 .header-right .icons {
   margin-left: 110px;
-  display: inline-block;
+}
+
+.header-right .icons i {
+  font-size: 25px;
+  margin-top: 10px;
 }
 
 .header-logo {
