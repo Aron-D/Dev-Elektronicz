@@ -24,6 +24,8 @@ body {
   background-color: #fff;
 }
 
+/* Header */
+
 .header-distributed {
   width: 100%;
   height: 170px;
@@ -49,21 +51,11 @@ body {
   float: left;
 }
 
-.header-right .icons {
-  margin-left: 190px;
-  color: #95cb52;
-}
-
-.header-right .icons a i {
-  font-size: 25px;
-  text-decoration: none;
-  margin-top: 10px;
-  color: #95cb52;
-}
-
 .header-logo {
   margin-top: 10px;
 }
+
+/* End of Header */
 
 /* Navigation */
 
@@ -105,12 +97,7 @@ body {
 
 /* End of Navigation */
 
-.main-content {
-  width: 90%;
-  height: auto;
-  margin: 0 auto;
-  padding-bottom: 50px;
-}
+/* Slider style */
 
 .slider {
   margin-bottom: 35px;
@@ -119,9 +106,121 @@ body {
   height: 450px;
 }
 
-.site-content {
-  margin-bottom: 10px;
+/* Slider style */
+
+.main-content {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 40px;
 }
+
+.content-title {
+  position: relative;
+  left: -50px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+  max-width: 70%;
+  height: 50px;
+  background-color: #95cb52;
+}
+
+.content-title h1 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 30px;
+  color: #222;
+  padding-top: 7.5px;
+  position: relative;
+  text-align: left;
+}
+
+.site-content {
+  margin-bottom: 20px;
+}
+
+/* HOME STYLING */
+
+.site-content .home span .none {
+  font-size: 16px;
+  text-align: left;
+  line-height: 20px;
+}
+
+.site-content .home p {
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* HOME STYLING */
+
+/* TESTIMONIAL STYLE */
+
+.testimonial {
+  margin-top: 50px;
+  width: 100%;
+  height: 600px;
+  left: -50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+  background-color: #fff;
+}
+
+.testimonial .card {
+  width: 400px;
+  height: 400px;
+  padding-bottom: 10px;
+  background-color: rgb(247, 247, 246);
+  float: left;
+  margin-top: 40px;
+  margin-right: 64px;
+  box-shadow: 6px 6px 5px #aaaaaa;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.testimonial .card-uno {
+  width: 400px;
+  height: 400px;
+  padding-bottom: 10px;
+  background-color: #f8f8ff;
+  float: left;
+  margin-top: 40px;
+  box-shadow: 6px 6px 5px #aaaaaa;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.testimonial .avatar {
+  background-color: #fff;
+  top: 30px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: solid 5px #efefef;
+  margin-bottom: 40px;
+}
+
+.testimonial .name {
+  position: relative;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+  color: #95cb52;
+  font-size: 20px;
+}
+
+.testimonial .item {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* TESTIMONIAL STYLE */
 
 .site-content p.klachten {
   width: auto;
@@ -145,36 +244,10 @@ body {
   width: auto;
 }
 
-.content-title {
-  position: relative;
-  left: -50px;
-  padding-left: 50px;
-  margin-bottom: 20px;
-  max-width: 70%;
-  height: 50px;
-  background-color: #95cb52;
-}
-
-.content-title h1 {
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 30px;
-  color: #222;
-  padding-top: 7.5px;
-  position: relative;
-  text-align: left;
-}
-
 .site-content p {
-  font-size: 18px;
-  text-align: left;
-  margin-bottom: 25px;
-}
-
-.site-content span .none {
   font-size: 16px;
   text-align: left;
-  line-height: 20px;
+  margin-bottom: 25px;
 }
 
 .site-content ul {
@@ -198,73 +271,6 @@ body {
   text-decoration: underline;
 }
 
-.testimonials {
-  margin-top: 60px;
-  width: 100%;
-  height: 450px;
-}
-
-.col-none {
-  margin-top: 20px;
-  width: 250px;
-  height: 350px;
-  background-color: white;
-  float: left;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
-}
-
-.col {
-  margin-top: 20px;
-  width: 250px;
-  height: 350px;
-  background-color: white;
-  float: left;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
-  margin-right: 57px;
-}
-
-.col-bg {
-  border-radius: 8px 8px 0px 0px;
-  height: 95px;
-  width: 100%;
-  background-color: #95cb52;
-}
-
-.col-picture {
-  background-color: #fff;
-  top: 35px;
-  position: relative;
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  margin: 0 auto;
-  border: solid 5px white;
-}
-
-.col-name {
-  top: 50px;
-  position: relative;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 700;
-  font-family: "Roboto", sans-serif;
-}
-
-.col-text {
-  margin-top: 20px;
-  font-size: 16px;
-  font-weight: 0;
-  font-family: sans-serif;
-}
-
-.col-line {
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
 /* Footer */
 
 .footer-distributed {
@@ -272,22 +278,23 @@ body {
   height: 360px;
   background-color: #95cb52;
   color: #fff;
+  text-align: left;
 }
 
 .footer-left {
-  width: 30%;
-  height: 300px;
-  float: left;
-}
-
-.footer-center {
   width: 40%;
   height: 300px;
   float: left;
 }
 
+.footer-center {
+  width: 32.5%;
+  height: 300px;
+  float: left;
+}
+
 .footer-right {
-  width: 30%;
+  width: 27.5%;
   height: 300px;
   float: left;
 }
@@ -313,66 +320,125 @@ body {
   padding-top: 50px;
 }
 
-.footer-left h1 {
-  font-weight: normal;
-  font-size: 20px;
-  color: #fff;
+.footer-left,
+.footer-center,
+.footer-right p {
+  line-height: 25px;
 }
 
-.footer-center h1 {
-  font-weight: normal;
-  color: #fff;
+.footer-center .praktijk-title {
+  font-weight: 600;
   font-size: 20px;
-  margin-bottom: 20px;
-  margin-left: 50px;
+  margin-bottom: 10px;
 }
 
-.footer-center ul {
+.footer-center .praktijk-adres {
   font-size: 16px;
-  margin-left: 50px;
-  line-height: 20px;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.footer-right .contact-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-right .contact-information {
+  font-size: 16px;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.footer-right .contact-information a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-right .contact-information a:hover {
+  color: black;
+}
+
+.footer-center .openingstijden-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-center .openingstijden {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.footer-center .openingstijden p span {
+  margin-left: 3px;
+}
+
+.footer-right .links-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.footer-right .links {
+  margin-bottom: 30px;
+}
+
+.footer-right .links ul {
   list-style: none;
-  color: #fff;
+  line-height: 20px;
 }
 
-.footer-center ul li {
-  display: block;
-}
-
-.footer-center ul li a {
+.footer-right .links ul li a {
   text-decoration: none;
   color: white;
 }
 
-.footer-center ul li a:hover {
-  text-decoration: underline;
+.footer-right .links ul li a:hover {
+  color: black;
 }
 
-.footer-right h1 {
-  font-weight: normal;
-  color: #fff;
+.footer-left .company-logo {
+  width: 280px;
+  height: 120px;
+  background-image: url("assets/images/placeholder.png");
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.footer-left .company-slogan {
+  margin-bottom: 30px;
+}
+
+.footer-left .social-media {
+  margin-bottom: 30px;
+}
+
+.footer-left .social-media ul {
+  list-style: none;
+  display: block;
   font-size: 20px;
-  margin-bottom: 20px;
 }
 
-.footer-right p {
-  font-size: 16px;
+.footer-left .social-media ul li {
+  display: inline;
 }
 
-.footer-right span p {
-  line-height: 20px;
+.footer-left .social-media ul li a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #3a3d41;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 35px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
-.footer-right p span {
-  text-align: left;
-  font-size: 16px;
-}
-
-.footer-right p span span {
-  margin-left: 60px;
-  font-size: 16px;
-}
-
-.footer-right p span span span {
-  margin-left: 7px;
+.footer-left .social-media ul li a:hover {
+  color: #3a3d41;
+  background-color: #fff;
 }
