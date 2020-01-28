@@ -108,6 +108,8 @@ body {
 
 /* Slider style */
 
+/* MAIN STYLE */
+
 .main-content {
   width: 90%;
   height: auto;
@@ -138,6 +140,8 @@ body {
 .site-content {
   margin-bottom: 20px;
 }
+
+/* MAIN STYLE */
 
 /* HOME STYLING */
 
@@ -179,6 +183,14 @@ body {
   margin-bottom: 20px;
 }
 
+.site-content .over-mij p.foto {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
 /* OVER MIJ STYLE */
 
 /* TARIEVEN STYLE */
@@ -209,6 +221,16 @@ body {
 }
 
 /* NIEUWS STYLE */
+
+/* KLACHTEN STYLE */
+
+.site-content .klachten p {
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* KLACHTEN STYLE */
 
 /* TESTIMONIAL STYLE */
 
@@ -276,42 +298,14 @@ body {
 
 /* TESTIMONIAL STYLE */
 
-.site-content p.klachten {
-  width: auto;
-  height: 200px;
-}
-
-.site-content p.overmij {
-  float: left;
-  margin-right: 20px;
-  margin-top: 5px;
-}
-
 .site-content p.contact {
   height: auto;
   width: auto;
-  font-size: 16px;
 }
 
 .site-content p.zorgkaart {
   height: 200px;
   width: auto;
-}
-
-.site-content p {
-  font-size: 16px;
-  text-align: left;
-  margin-bottom: 25px;
-}
-
-.site-content ul {
-  margin-left: 30px;
-  margin-bottom: 40px;
-}
-
-.site-content ul li {
-  font-size: 16px;
-  line-height: 2;
 }
 
 /* CONTACT STYLE */
