@@ -142,18 +142,34 @@ body {
 /* HOME STYLING */
 
 .site-content .home span .none {
-  font-size: 16px;
+  font-size: 18px;
   text-align: left;
   line-height: 20px;
 }
 
 .site-content .home p {
-  font-size: 16px;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.site-content .home span {
+  font-size: 18px;
   text-align: left;
   margin-bottom: 20px;
 }
 
 /* HOME STYLING */
+
+/* BOWEN THERAPIE STYLE */
+
+.site-content .bowen-therapie p {
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* BOWEN THERAPIE STYLE */
 
 /* TESTIMONIAL STYLE */
 
@@ -215,7 +231,7 @@ body {
   width: 90%;
   margin: 0 auto;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   text-decoration: none;
 }
 
@@ -332,7 +348,7 @@ body {
 }
 
 .footer-center .praktijk-adres {
-  font-size: 16px;
+  font-size: 18px;
   text-decoration: none;
   margin-bottom: 30px;
 }
@@ -344,7 +360,7 @@ body {
 }
 
 .footer-right .contact-information {
-  font-size: 16px;
+  font-size: 18px;
   text-decoration: none;
   margin-bottom: 30px;
 }
@@ -365,7 +381,7 @@ body {
 }
 
 .footer-center .openingstijden {
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 30px;
 }
 
