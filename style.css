@@ -1,529 +1,563 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  background-image: url(https://kinderbalans.nl/wp-content/themes/kinderbalans/images/noise.png);
-  background-position: left top;
-  background-size: auto;
-  background-repeat: repeat;
-  background-attachment: scroll;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  font-family: sans-serif, Arial;
+    background-image: url(https://kinderbalans.nl/wp-content/themes/kinderbalans/images/noise.png);
+    background-position: left top;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: sans-serif, Arial;
 }
 
 .container {
-  width: 960px;
-  min-height: 100vh;
-  margin: 0 auto;
-  overflow: hidden;
-  box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
-  border-radius: 10px 10px 0px 0px;
-  background-color: #fff;
+    width: 960px;
+    min-height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+    border-radius: 10px 10px 0px 0px;
+    background-color: #fff;
 }
+
 
 /* Header */
 
 .header-distributed {
-  width: 100%;
-  height: 170px;
-  border-radius: 10px 10px 0px 0px;
-  background-color: #fff;
+    width: 100%;
+    height: 170px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #fff;
 }
 
 .header-left {
-  width: 35%;
-  height: 170px;
-  float: left;
+    width: 35%;
+    height: 170px;
+    float: left;
 }
 
 .header-center {
-  width: 30%;
-  height: 170px;
-  float: left;
+    width: 30%;
+    height: 170px;
+    float: left;
 }
 
 .header-right {
-  width: 35%;
-  height: 170px;
-  float: left;
+    width: 35%;
+    height: 170px;
+    float: left;
 }
 
 .header-logo {
-  margin-top: 10px;
+    margin-top: 10px;
 }
 
+
 /* End of Header */
+
 
 /* Navigation */
 
 .navigation {
-  background-color: #95cb52;
-  width: 100%;
-  height: 40px;
-  margin-bottom: 50px;
+    background-color: #95cb52;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 50px;
 }
 
 .navigation ul {
-  padding: 10px;
-  list-style: none;
-  position: relative;
-  display: block;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 15px;
+    padding: 10px;
+    list-style: none;
+    position: relative;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
 }
 
 .navigation ul li {
-  display: inline;
+    display: inline;
 }
 
 .navigation ul li a {
-  padding: 5px;
-  text-decoration: none;
-  color: white;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
 }
 
 .navigation ul li a:hover {
-  color: #222;
+    color: #222;
 }
 
 .navigation ul li a.active {
-  color: #222;
+    color: #222;
 }
 
+
 /* End of Navigation */
+
 
 /* Slider style */
 
 .slider {
-  margin-bottom: 35px;
-  margin-top: -45px;
-  width: 100%;
-  height: 450px;
+    margin-bottom: 35px;
+    margin-top: -45px;
+    width: 100%;
+    height: 450px;
 }
 
+
 /* Slider style */
+
 
 /* MAIN STYLE */
 
 .main-content {
-  width: 90%;
-  height: auto;
-  margin: 0 auto;
-  padding-bottom: 40px;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 40px;
 }
 
 .content-title {
-  position: relative;
-  left: -50px;
-  padding-left: 50px;
-  margin-bottom: 20px;
-  max-width: 70%;
-  height: 50px;
-  background-color: #95cb52;
+    position: relative;
+    left: -50px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    max-width: 70%;
+    height: 50px;
+    background-color: #95cb52;
 }
 
 .content-title h1 {
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 30px;
-  color: #222;
-  padding-top: 7.5px;
-  position: relative;
-  text-align: left;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 30px;
+    color: #222;
+    padding-top: 7.5px;
+    position: relative;
+    text-align: left;
 }
 
 .site-content {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
+
 /* MAIN STYLE */
+
 
 /* HOME STYLING */
 
 .site-content .home span .none {
-  font-size: 18px;
-  text-align: left;
-  line-height: 20px;
+    font-size: 18px;
+    text-align: left;
+    line-height: 20px;
 }
 
 .site-content .home p {
-  font-size: 18px;
-  text-align: left;
-  margin-bottom: 20px;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 .site-content .home span {
-  font-size: 18px;
-  text-align: left;
-  margin-bottom: 20px;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
+
 /* HOME STYLING */
+
 
 /* BOWEN THERAPIE STYLE */
 
 .site-content .bowen-therapie p {
-  font-size: 18px;
-  text-align: left;
-  margin-bottom: 20px;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
+
 /* BOWEN THERAPIE STYLE */
+
 
 /* OVER MIJ STYLE */
 
 .site-content .over-mij p {
-  font-size: 18px;
-  text-align: left;
-  margin-bottom: 20px;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 20px;
 }
+
 
 /* OVER MIJ STYLE */
 
 .site-content .over-mij p.foto {
-  float: left;
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
-  margin-top: 5px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-top: 5px;
 }
 
+
 /* OVER MIJ STYLE */
+
 
 /* TARIEVEN STYLE */
 
 .site-content .tarieven p {
-  font-size: 18px;
-  text-align: left;
-  margin-bottom: 20px;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 .site-content .tarieven ul {
-  margin-bottom: 30px;
-  margin-left: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
 }
 
 .site-content .tarieven ul li {
-  font-size: 18px;
-  line-height: 2;
+    font-size: 18px;
+    line-height: 2;
 }
 
+
 /* TARIEVEN STYLE */
+
 
 /* NIEUWS STYLE */
 
 .site-content .nieuws p {
-  font-size: 18px;
-  text-align: left;
-  margin-bottom: 20px;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
+
 /* NIEUWS STYLE */
+
 
 /* KLACHTEN STYLE */
 
 .site-content .klachten p {
-  font-size: 18px;
-  text-align: left;
-  margin-bottom: 20px;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
+
 /* KLACHTEN STYLE */
+
 
 /* TESTIMONIAL STYLE */
 
 .testimonial {
-  margin-top: 50px;
-  width: 100%;
-  height: 600px;
-  left: -50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  position: relative;
-  background-color: #fff;
+    margin-top: 50px;
+    width: 100%;
+    height: 600px;
+    left: -50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    background-color: #fff;
 }
 
 .testimonial .card {
-  width: 400px;
-  height: 400px;
-  padding-bottom: 10px;
-  background-color: #95cb52;
-  float: left;
-  margin-top: 40px;
-  margin-right: 64px;
-  box-shadow: 6px 6px 5px #aaaaaa;
-  border-radius: 0px 25px 0px 25px;
+    width: 400px;
+    height: 400px;
+    padding-bottom: 10px;
+    background-color: #95cb52;
+    float: left;
+    margin-top: 40px;
+    margin-right: 64px;
+    box-shadow: 6px 6px 5px #aaaaaa;
+    border-radius: 0px 25px 0px 25px;
 }
 
 .testimonial .card-uno {
-  width: 400px;
-  height: 400px;
-  padding-bottom: 10px;
-  background-color: #95cb52;
-  float: left;
-  margin-top: 40px;
-  box-shadow: 6px 6px 5px #aaaaaa;
-  border-radius: 0px 25px 0px 25px;
+    width: 400px;
+    height: 400px;
+    padding-bottom: 10px;
+    background-color: #95cb52;
+    float: left;
+    margin-top: 40px;
+    box-shadow: 6px 6px 5px #aaaaaa;
+    border-radius: 0px 25px 0px 25px;
 }
 
 .testimonial .avatar {
-  background-color: #fff;
-  top: 30px;
-  position: relative;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin: 0 auto;
-  border: solid 5px #fff;
-  margin-bottom: 40px;
+    background-color: #fff;
+    top: 30px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: solid 5px #fff;
+    margin-bottom: 40px;
 }
 
 .testimonial .name {
-  position: relative;
-  margin-bottom: 20px;
-  text-align: center;
-  font-weight: 700;
-  font-size: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .testimonial .item {
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 18px;
-  text-decoration: none;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
 }
+
 
 /* TESTIMONIAL STYLE */
 
 .site-content p.contact {
-  height: auto;
-  width: auto;
-  font-size: 16px;
+    height: auto;
+    width: auto;
+    font-size: 16px;
 }
 
 .site-content p.zorgkaart {
-  height: 200px;
-  width: auto;
+    height: 200px;
+    width: auto;
 }
+
 
 /* CONTACT STYLE */
 
 .site-content a {
-  color: #8bc600;
-  outline: none;
-  text-decoration: none;
-  font-weight: 400;
+    color: #8bc600;
+    outline: none;
+    text-decoration: none;
+    font-weight: 400;
 }
 
 .site-content a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
+
 /* CONTACT STYLE */
+
 
 /* Footer */
 
 .footer-distributed {
-  width: 100%;
-  height: 310px;
-  background-color: #95cb52;
-  color: #fff;
-  text-align: left;
+    width: 100%;
+    height: 310px;
+    background-color: #95cb52;
+    color: #fff;
+    text-align: left;
 }
 
 .footer-left {
-  width: 40%;
-  height: 260px;
-  float: left;
+    width: 40%;
+    height: 260px;
+    float: left;
 }
 
 .footer-center {
-  width: 32.5%;
-  height: 260px;
-  float: left;
+    width: 32.5%;
+    height: 260px;
+    float: left;
 }
 
 .footer-right {
-  width: 27.5%;
-  height: 260px;
-  float: left;
+    width: 27.5%;
+    height: 260px;
+    float: left;
 }
 
 .footer-copyright {
-  width: 100%;
-  height: 60px;
-  background-color: #3a3d41;
-  color: #999;
-  float: left;
+    width: 100%;
+    height: 60px;
+    background-color: #3a3d41;
+    color: #999;
+    float: left;
 }
 
 .footer-copyright-left {
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 20px;
-  font-size: 16px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 16px;
 }
 
 .footer-distributed-position {
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
 }
 
 .footer-left,
 .footer-center,
 .footer-right p {
-  line-height: 25px;
+    line-height: 25px;
 }
 
 .footer-center .praktijk-title {
-  font-weight: 600;
-  font-size: 20px;
-  margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .footer-center .praktijk-adres {
-  font-size: 18px;
-  text-decoration: none;
-  margin-bottom: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 30px;
 }
 
 .footer-right .contact-title {
-  font-weight: 600;
-  font-size: 20px;
-  margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .footer-right .contact-information {
-  font-size: 18px;
-  text-decoration: none;
-  margin-bottom: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 30px;
 }
 
 .footer-right .contact-information a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .footer-right .contact-information a:hover {
-  color: black;
+    color: black;
 }
 
 .footer-center .openingstijden-title {
-  font-weight: 600;
-  font-size: 20px;
-  margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .footer-center .openingstijden {
-  font-size: 18px;
-  margin-bottom: 30px;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
 
 .footer-center .openingstijden p span {
-  margin-left: 3px;
+    margin-left: 3px;
 }
 
 .footer-right .links-title {
-  font-size: 20px;
-  margin-bottom: 10px;
-  font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
 }
 
 .footer-right .links {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .footer-right .links ul {
-  list-style: none;
-  line-height: 20px;
+    list-style: none;
+    line-height: 20px;
 }
 
 .footer-right .links ul li a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .footer-right .links ul li a:hover {
-  color: black;
+    color: black;
 }
 
 .footer-left .company-logo {
-  width: 280px;
-  height: auto;
-  text-align: left;
-  font-size: 45px;
-  font-weight: 700;
-  margin-bottom: 40px;
+    width: 280px;
+    height: auto;
+    text-align: left;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 40px;
 }
 
 .footer-left .company-slogan {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .footer-left .social-media {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .footer-left .social-media ul {
-  list-style: none;
-  display: block;
-  font-size: 20px;
+    list-style: none;
+    display: block;
+    font-size: 20px;
 }
 
 .footer-left .social-media ul li {
-  display: inline;
+    display: inline;
 }
 
 .footer-left .social-media ul li a {
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  background-color: #3a3d41;
-  border-radius: 2px;
-  font-size: 20px;
-  color: #ffffff;
-  line-height: 35px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  text-align: center;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #3a3d41;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 35px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align: center;
 }
 
 .footer-left .social-media ul li a:hover {
-  color: #3a3d41;
-  background-color: #fff;
+    color: #3a3d41;
+    background-color: #fff;
 }
+
 
 /* CONTACT FORM */
 
 input,
 select,
 textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
 input[type="submit"] {
-  background-color: #95cb52;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+    background-color: #95cb52;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 input[type="submit"]:hover {
-  background-color: #000000;
+    background-color: #000000;
+}
+
+
+/* contact tekst */
+
+class.text {
+    width: 50%;
 }
