@@ -181,6 +181,35 @@ body {
 
 /* OVER MIJ STYLE */
 
+/* TARIEVEN STYLE */
+
+.site-content .tarieven p {
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.site-content .tarieven ul {
+  margin-bottom: 30px;
+}
+
+.site-content .tarieven ul li {
+  font-size: 18px;
+  line-height: 2;
+}
+
+/* TARIEVEN STYLE */
+
+/* NIEUWS STYLE */
+
+.site-content .nieuws p {
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* NIEUWS STYLE */
+
 /* TESTIMONIAL STYLE */
 
 .testimonial {
@@ -285,6 +314,8 @@ body {
   line-height: 2;
 }
 
+/* CONTACT STYLE */
+
 .site-content a {
   color: #8bc600;
   outline: none;
@@ -296,11 +327,13 @@ body {
   text-decoration: underline;
 }
 
+/* CONTACT STYLE */
+
 /* Footer */
 
 .footer-distributed {
   width: 100%;
-  height: 300px;
+  height: 310px;
   background-color: #95cb52;
   color: #fff;
   text-align: left;
@@ -308,19 +341,19 @@ body {
 
 .footer-left {
   width: 40%;
-  height: 250px;
+  height: 260px;
   float: left;
 }
 
 .footer-center {
   width: 32.5%;
-  height: 250px;
+  height: 260px;
   float: left;
 }
 
 .footer-right {
   width: 27.5%;
-  height: 250px;
+  height: 260px;
   float: left;
 }
 
