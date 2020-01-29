@@ -357,18 +357,22 @@ body {
   margin-left: 20px;
 }
 
-.site-content .contact p ul {
+.site-content .contact ul {
   margin-bottom: 30px;
   list-style: none;
 }
-.site-content .contact p ul li {
+.site-content .contact ul li {
   font-size: 18px;
   line-height: 2;
 }
 
-.site-content .contact p ul li::before {
+.site-content .contact ul li::before {
   content: "• ";
   font-size: 20px;
+}
+
+.site-content .contact ul li a {
+    
 }
 
 /* CONTACT STYLE */
