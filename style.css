@@ -258,6 +258,7 @@ body {
   font-weight: 400;
   cursor: pointer;
 }
+
 .site-content .klachten ul li a:hover {
   text-decoration: underline;
 }
@@ -346,7 +347,6 @@ body {
 .site-content .contact-form {
   width: 100%;
   height: 400px;
-  background-color: yellow;
   margin-bottom: 20px;
 }
 
@@ -551,7 +551,7 @@ body {
   margin-top: -20px;
 }
 
-/* input,
+input,
 select,
 textarea {
   width: 100%;
@@ -577,8 +577,6 @@ input[type="submit"]:hover {
   background-color: #000000;
 }
 
-
-
 class.text {
   width: 50%;
-} */
+}
