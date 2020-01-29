@@ -183,8 +183,6 @@ body {
   margin-bottom: 20px;
 }
 
-/* OVER MIJ STYLE */
-
 .site-content .over-mij p.foto {
   float: left;
   width: 200px;
@@ -205,7 +203,12 @@ body {
 
 .site-content .tarieven ul {
   margin-bottom: 30px;
-  margin-left: 20px;
+  list-style: none;
+}
+
+.site-content .tarieven ul li::before {
+  content: "• ";
+  font-size: 20px;
 }
 
 .site-content .tarieven ul li {
@@ -231,6 +234,32 @@ body {
   font-size: 18px;
   text-align: left;
   margin-bottom: 20px;
+}
+
+.site-content .klachten ul {
+  margin-bottom: 30px;
+  list-style: none;
+}
+
+.site-content .klachten ul li {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.site-content .klachten ul li::before {
+  content: "• ";
+  color: #8bc600;
+  font-size: 20px;
+}
+
+.site-content .klachten ul li a {
+  color: #8bc600;
+  text-decoration: none;
+  font-weight: 400;
+  cursor: pointer;
+}
+.site-content .klachten ul li a:hover {
+  text-decoration: underline;
 }
 
 /* KLACHTEN STYLE */
@@ -314,15 +343,10 @@ body {
 
 /* CONTACT STYLE */
 
-.site-content a {
-  color: #8bc600;
-  outline: none;
-  text-decoration: none;
-  font-weight: 400;
-}
-
-.site-content a:hover {
-  text-decoration: underline;
+.site-content .contact {
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 20px;
 }
 
 /* CONTACT STYLE */
