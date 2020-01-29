@@ -341,7 +341,7 @@ body {
 .site-content .contact p {
   font-size: 18px;
   text-align: left;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .site-content .contact-form {
@@ -357,7 +357,7 @@ body {
 }
 
 .site-content .contact ul {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   list-style: none;
 }
 
