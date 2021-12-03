@@ -1,2 +1,2 @@
 # Dev-Elektronicz
-de officieele
+de officiële
