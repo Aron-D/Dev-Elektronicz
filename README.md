@@ -1,2 +1,2 @@
 # Dev-Elektronicz
-de officiële
+ALA - Project based on a website we had to imitate
